@@ -15,6 +15,10 @@ export default {
       colors: {
         'primary-blue': 'rgb(var(--primary-blue))',
         'secondary-blue': 'rgb(var(--secondary-blue))',
+      },
+
+      backgroundImage: {
+        banner: "url('/src/assets/portada.jpg')"
       }
     }
   },
