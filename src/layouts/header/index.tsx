@@ -1,4 +1,3 @@
-import Navbar from './Navbar'
 import Notify from './Notify'
 
 export function Header() {
