@@ -17,7 +17,7 @@ export function Link({ social, href }: Props) {
   if (!social) return null
   return (
     <a href={href} target="_blank" rel="noopener noreferrer">
-      <Social className="text-secondary-blue hover:text-primary-blue max-h-5" />
+      <Social className="text-xs sm:text-xl md:text-2xl text-secondary-blue hover:text-primary-blue" />
     </a>
   )
 }
