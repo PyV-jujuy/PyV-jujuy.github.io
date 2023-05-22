@@ -14,6 +14,7 @@ interface Props {
 export function Link({ social, href }: Props) {
   const Social = SOCIAL_ICONS[social]
 
+  if (!social) return null
   return (
     <a href={href} target="_blank" rel="noopener noreferrer">
       <Social className="text-secondary-blue hover:text-primary-blue max-h-5" />
