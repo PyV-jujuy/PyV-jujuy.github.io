@@ -6,11 +6,11 @@ interface Props {
   children: [ReactElement<typeof Section>, ReactElement<typeof Section>]
 }
 function Article({ reverse = false, children }: Props) {
-  const flexReverse = reverse ? 'flex-row-reverse' : 'flex-row'
+  const flexRow = reverse ? 'md:flex-row-reverse' : 'md:flex-row'
 
   return (
     <article
-      className={`flex flex-col items-center flex-auto md:w-3/4 md:${flexReverse}`}
+      className={`flex flex-col items-center flex-auto md:w-3/4 ${flexRow}`}
     >
       {children.map(function (a, i) {
         return <Fragment key={i}> {a} </Fragment>
