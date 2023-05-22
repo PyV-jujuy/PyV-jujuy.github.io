@@ -9,7 +9,9 @@ function Article({ reverse = false, children }: Props) {
   const flexReverse = reverse ? 'flex-row-reverse' : 'flex-row'
 
   return (
-    <article className={`flex flex-col flex-auto md:w-3/4 md:${flexReverse}`}>
+    <article
+      className={`flex flex-col items-center flex-auto md:w-3/4 md:${flexReverse}`}
+    >
       {children.map(function (a, i) {
         return <Fragment key={i}> {a} </Fragment>
       })}
