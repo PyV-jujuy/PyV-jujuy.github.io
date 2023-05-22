@@ -9,5 +9,4 @@ export default defineConfig({
       src: '/src',
     },
   },
-  base: '/PyV-jujuy.github.io/',
 })
