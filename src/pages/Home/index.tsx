@@ -4,7 +4,7 @@ import Article from 'src/components/article'
 import logo from 'src/assets/logo.svg'
 import { ECONOMIC_PLAN, FACEBOOK_LINK, WHATSAPP_LINK } from 'src/utils/const'
 
-export function Main() {
+export default function Home() {
   return (
     <main
       id="main"

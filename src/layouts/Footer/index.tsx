@@ -1,6 +1,6 @@
 import { Socials } from 'src/components/socials'
 
-export function Footer() {
+export default function Footer() {
   return (
     <footer className="flex flex-col items-center min-w-full bg-primary-blue text-white justify-center p-3">
       <Socials>
