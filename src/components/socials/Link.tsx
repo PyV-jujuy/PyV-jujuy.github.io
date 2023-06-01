@@ -1,10 +1,4 @@
-import { FaFacebook, FaWhatsapp, FaGithub } from 'react-icons/fa'
-
-const SOCIAL_ICONS = {
-  FACEBOOK: FaFacebook,
-  WHATSAPP: FaWhatsapp,
-  GITHUB: FaGithub,
-}
+import SOCIAL_ICONS from './social-icons'
 
 interface Props {
   social: keyof typeof SOCIAL_ICONS
